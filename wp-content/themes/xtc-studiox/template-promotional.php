@@ -873,6 +873,15 @@ Together we create world-class brands, powerful videos, creative campaigns, digi
             });
 		});
 
+        document.addEventListener( 'wpcf7mailsent', function( event ) {
+            if(event.detail.contactFormId == '8') {
+                const form = document.querySelector('#form-shortcode');
+                const thankYou = document.querySelector('#form-shortcode-thanks');
+
+                form.style.display = 'none';
+                thankYou.style.display = 'block';
+            }
+        }, false );
 	});
 </script>
 
