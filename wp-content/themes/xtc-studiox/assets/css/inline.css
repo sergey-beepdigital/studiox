@@ -3188,3 +3188,28 @@ form input.display-none {
 .slider-studiox .flickity-page-dots{
     display: none;
 }
+
+#Header #Top_bar{
+    position: fixed;
+    top: 0;
+}
+
+.admin-bar #Header #Top_bar{
+    top: 32px;
+}
+
+body{
+    padding-top: 91px!important;
+}
+
+@media only screen and (max-width: 782px) {
+    .admin-bar #Header #Top_bar{
+        top: 46px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .admin-bar #Header #Top_bar{
+        top: 0;
+    }
+}

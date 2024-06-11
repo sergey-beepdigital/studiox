@@ -21,9 +21,9 @@
         <header id="Header">
 
 
-            <div class="header_placeholder" style="height: 0px;"></div>
+            <div class="header_placeholder"></div>
 
-            <div id="Top_bar" class="" style="top: 0px;">
+            <div id="Top_bar" class="">
 
                 <div class="container">
                     <div class="column one">
