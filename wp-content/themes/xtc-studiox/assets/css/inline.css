@@ -3184,3 +3184,7 @@ form input.display-none {
         gap: 20px;
     }
 }
+
+.slider-studiox .flickity-page-dots{
+    display: none;
+}
