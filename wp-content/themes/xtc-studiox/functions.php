@@ -50,8 +50,7 @@ if ( ! function_exists( 'studiox_styles' ) ) :
 		// Styles
 		wp_enqueue_style('typekit', 'https://use.typekit.net/emi7mjy.css');
 		wp_enqueue_style( 'be-theme', 'https://extremetechchallenge.org/wp-content/themes/betheme/css/be.css', [], $theme_version );
-		//wp_enqueue_style( 'be-theme-child', 'https://extremetechchallenge.org/wp-content/themes/betheme-child/style.css', [], $theme_version );
-		wp_enqueue_style( 'be-theme-child', 'https://extremetechdev.wpenginepowered.com/wp-content/themes/betheme-child/style.css', [], $theme_version );
+		wp_enqueue_style( 'be-theme-child', 'https://extremetechchallenge.org/wp-content/themes/betheme-child/style.css', [], $theme_version );
 		wp_enqueue_style( 'flickity-css', 'https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css', [], $theme_version );
 		wp_enqueue_style( 'fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css', [], $theme_version );
 		wp_enqueue_style( 'theme-inline-css', get_template_directory_uri() . '/assets/css/inline.css', [], $theme_version );
