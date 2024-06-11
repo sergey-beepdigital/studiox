@@ -22,10 +22,6 @@ if ( ! function_exists( 'studiox_support' ) ) :
 	 * @return void
 	 */
 	function studiox_support() {
-
-		// Add support for block styles.
-		add_theme_support( 'wp-block-styles' );
-
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
 	}
@@ -59,7 +55,6 @@ if ( ! function_exists( 'studiox_styles' ) ) :
 		wp_enqueue_style( 'flickity-css', 'https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css', [], $theme_version );
 		wp_enqueue_style( 'fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css', [], $theme_version );
 		wp_enqueue_style( 'theme-inline-css', get_template_directory_uri() . '/assets/css/inline.css', [], $theme_version );
-
 
 		// Enqueue theme stylesheet.
 		wp_enqueue_style( 'studiox-style', get_template_directory_uri() . '/style.css', [], $theme_version );
