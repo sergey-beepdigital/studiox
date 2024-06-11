@@ -255,7 +255,8 @@ Together we create world-class brands, powerful videos, creative campaigns, digi
 									<div class="content-wrap white-text">
 
 										<div data-delay="3" class="paragraph-wrap fade-in-up">
-										<p>We'd love to hear from you! Fill out the form below, and one of our team of tech branding experts will get in touch with you shortly.</p>
+                                            <p>We’re a collective of fast movers and fast thinkers — It’s this startup mentality that makes us truly unique in building powerful solutions for our clients.</p>
+                                            <p>Fill out the form, and one of our tech branding experts will get in touch.</p>
 										</div>	
 
 									</div>
