@@ -834,6 +834,10 @@ body.button-custom .action_button:hover {
     border-radius: 0px
 }
 
+#Top_bar{
+    border-bottom:1px solid #000;
+}
+
 #Top_bar .top_bar_right .top-bar-right-input input {
     width: 200px
 }
