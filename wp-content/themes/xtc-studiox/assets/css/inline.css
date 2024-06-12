@@ -2493,6 +2493,7 @@ hr.hr_color,.hr_color hr,.hr_dots span {
 
 #Header .header-cta{
     flex: none;
+    margin-right: 15px;
 }
 
 #Header .header-cta .cta-button{
@@ -3204,6 +3205,16 @@ form input.display-none {
 
 body{
     padding-top: 91px!important;
+}
+
+#back_to_top.sticky{
+    right: 20px;
+}
+
+@media only screen and (max-width: 1199px) {
+    #back_to_top.sticky{
+        right: 15px;
+    }
 }
 
 @media only screen and (max-width: 782px) {
