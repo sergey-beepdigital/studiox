@@ -10,7 +10,7 @@
                     </div>
                     <div>
                         Brought to you by <a href="https://beep.digital" target="_blank">beep.digital</a><br>
-                        Technically Creative®
+                        Technically Creative<sup>®</sup>
                     </div>
                 </div>
                 <div>&copy;2024 All rights reserved. Beep Digital Ltd.</div>
