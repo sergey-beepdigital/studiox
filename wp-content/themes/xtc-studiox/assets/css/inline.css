@@ -3133,7 +3133,7 @@ form input.display-none {
 }
 
 .studiox-footer{
-    padding: 63px 0 70px!important;
+    padding: 63px 15px 70px!important;
     color: #FFF;
     font-size: 13px;
 }
@@ -3174,14 +3174,24 @@ form input.display-none {
     font-weight: 900 !important;
 }
 
+.studiox-footer__copyright-mobile{display: none;}
+
 @media only screen and (max-width: 767px) {
+    .studiox-footer{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+
     .studiox-footer__columns{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .studiox-footer__logo-copyright{
         gap: 44px;
     }
+
+    .studiox-footer__copyright-desktop{display: none;}
+    .studiox-footer__copyright-mobile{display: block;margin-top: 44px;}
 }
 
 @media only screen and (max-width: 480px) {

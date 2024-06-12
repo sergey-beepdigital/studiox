@@ -13,7 +13,7 @@
                         Technically Creative<sup>®</sup>
                     </div>
                 </div>
-                <div>&copy;2024 All rights reserved. Beep Digital Ltd.</div>
+                <div class="studiox-footer__copyright-desktop">&copy;2024 All rights reserved. Beep Digital Ltd.</div>
             </div>
             <div class="studiox-footer__address-columns">
                 <div>
@@ -30,6 +30,8 @@
                 </div>
             </div>
         </div>
+
+        <div class="studiox-footer__copyright-mobile">&copy;2024 All rights reserved. Beep Digital Ltd.</div>
     </div>
 </footer>
 
