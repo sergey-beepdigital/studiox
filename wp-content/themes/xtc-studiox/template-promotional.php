@@ -86,7 +86,7 @@
 .cf7-form-columns__input-group .wpcf7-checkbox .wpcf7-list-item-label:before{content: "";position:absolute;width:23px;height:23px;background: #F2F2F2;border:2px solid #D9D9D9;border-radius: 50%;display:block;top: 3px;left: 0;}
 .cf7-form-columns__input-group .wpcf7-checkbox input:checked + .wpcf7-list-item-label:before{background: #8F1739;}
 
-.wpcf7 .button{min-width:175px;margin-bottom: 0!important;text-transform: uppercase;background-color: #000!important;transition: 0.5s ease all;color: #fff;font-weight: 600!important;letter-spacing: 1px;font-family: 'urbane', sans-serif;}
+.wpcf7 .button{min-width:175px;margin-bottom: 0!important;text-transform: uppercase;background-color: #000!important;transition: 0.5s ease all;color: #fff;font-weight: 600!important;letter-spacing: 1px;font-family: 'urbane', sans-serif;border-width:0!important;padding: 12px 20px;}
 .wpcf7 .button:hover{background-color: #D40862!important;border-color: #D40862!important;}
 .wpcf7 .button:after{content:normal!important;}
 .wpcf7 .wpcf7-response-output{margin: 30px 0 0!important;padding:0!important;display:none!important;}
