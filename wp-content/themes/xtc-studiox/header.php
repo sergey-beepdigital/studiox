@@ -16,7 +16,7 @@
 <body <?php body_class('layout-full-width no-shadows header-classic header-boxed sticky-header'); ?>>
 
 <div id="Wrapper">
-    <div id="Header_wrapper" class="">
+    <!--<div id="Header_wrapper" class="">
 
         <header id="Header">
 
@@ -29,14 +29,14 @@
                     <div class="column one">
                         <div class="top_bar_left clearfix">
                             <div class="logo">
-                                <a id="logo" href="<?php bloginfo('url'); ?>" title="Extreme Tech Challenge" data-height="60" data-padding="15" class="retina">
-                                    <img class="logo-main scale-with-grid svg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/StudioX-white-text.svg" data-height="259" alt="XTC-Logo-Long" data-no-retina="" style="max-height: 60px;">
+                                <a id="logo" href="<?php /*bloginfo('url'); */?>" title="Extreme Tech Challenge" data-height="60" data-padding="15" class="retina">
+                                    <img class="logo-main scale-with-grid svg" src="<?php /*echo get_stylesheet_directory_uri(); */?>/assets/images/StudioX-white-text.svg" data-height="259" alt="XTC-Logo-Long" data-no-retina="" style="max-height: 60px;">
                                 </a>
                             </div>
                         </div>
 
                         <div class="header-cta">
-                            <a href="<?php bloginfo('url'); ?>/#start" class="cta-button">
+                            <a href="<?php /*bloginfo('url'); */?>/#start" class="cta-button">
                                 <span>
                                     GET STARTED
                                     <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,4 +49,4 @@
                 </div>
             </div>
         </header>
-    </div>
+    </div>-->

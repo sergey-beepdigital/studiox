@@ -129,15 +129,19 @@ body:not(.cf7p-message) .wpcf7-not-valid-tip:before{content:normal!important;}
 								<div class="column">
 									<div class="content-wrap">
 
-										<div data-delay="1" class="header-wrap fade-in-up">
+                                        <div data-delay="1" class="logo-wrap fade-in-up">
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/studiologo.png" alt="background shape">
+                                        </div>
+
+                                        <div data-delay="2" class="header-wrap fade-in-up">
 											<h1>Partner with the creative talent behind XTC</h1>
 										</div>	
 
-										<div data-delay="2" class="paragraph-wrap fade-in-up">
+										<div data-delay="3" class="paragraph-wrap fade-in-up">
 											<p>Studio X is the trusted creative marketing and branding team supporting and delivering the Extreme Tech Challenge. We understand, first-hand, the needs of startups, founders, entrepreneurs and investors in a fast-paced world.</p>
 										</div>	
 
-										<div data-delay="3" class="paragraph-wrap number-wrap fade-in-up">
+										<div data-delay="4" class="paragraph-wrap number-wrap fade-in-up">
 											<div class="number">
 												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/4.1.png" alt="background shape">
 											</div>
@@ -148,7 +152,7 @@ body:not(.cf7p-message) .wpcf7-not-valid-tip:before{content:normal!important;}
 											</div>
 										</div>
 
-										<div data-delay="4" class="link-wrap fade-in-up">
+										<div data-delay="5" class="link-wrap fade-in-up">
 											<a class="cta-button scolltostart" href="#start" target="_self"><span>Get started <?php include get_stylesheet_directory() .'/assets/images/chevron.svg' ?></span></a>
 										</div>	
 
@@ -157,8 +161,8 @@ body:not(.cf7p-message) .wpcf7-not-valid-tip:before{content:normal!important;}
 
 								<div class="column media">
 
-									<img data-delay="2" class="desktop fade-in-up" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hero-image.png" alt="background shape">
-									<img data-delay="5" class="mobile fade-in-up" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mobile.png" alt="background shape">
+									<img data-delay="3" class="desktop fade-in-up" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hero-image.png" alt="background shape">
+									<img data-delay="6" class="mobile fade-in-up" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mobile.png" alt="background shape">
 
 								</div>
 
@@ -168,7 +172,7 @@ body:not(.cf7p-message) .wpcf7-not-valid-tip:before{content:normal!important;}
 						<div class="center-content width-1200 mobile">
 							<div class="content-wrap">
 
-								<div data-delay="5" class="paragraph-wrap number-wrap fade-in-up">
+								<div data-delay="6" class="paragraph-wrap number-wrap fade-in-up">
 									<div class="number">
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/4.1.png" alt="background shape">
 									</div>

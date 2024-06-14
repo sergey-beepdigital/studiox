@@ -3213,9 +3213,9 @@ form input.display-none {
     top: 32px;
 }
 
-body{
+/*body{
     padding-top: 91px!important;
-}
+}*/
 
 #back_to_top.sticky{
     right: 20px;
@@ -3228,13 +3228,13 @@ body{
 }
 
 @media only screen and (max-width: 782px) {
-    .admin-bar #Header #Top_bar{
+    /*.admin-bar #Header #Top_bar{
         top: 46px;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 600px) {
-    .admin-bar #Header #Top_bar{
+    /*.admin-bar #Header #Top_bar{
         top: 0;
-    }
+    }*/
 }
