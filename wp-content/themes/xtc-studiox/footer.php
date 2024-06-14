@@ -35,7 +35,7 @@
     </div>
 </footer>
 
-<a id="back_to_top" class="footer_button sticky" href=""><i class="icon-up-open-big"></i></a>
+<!--<a id="back_to_top" class="footer_button sticky" href=""><i class="icon-up-open-big"></i></a>-->
 
 <?php wp_footer(); ?>
 
