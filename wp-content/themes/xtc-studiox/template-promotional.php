@@ -222,7 +222,7 @@ Together we create world-class brands, powerful videos, creative campaigns, digi
 
 								<div class="column media">
 								<video width="1000" height="1000" autoplay="autoplay" loop  muted>
-									<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ticker.mp4?ab" type="video/mp4">
+									<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ticker-update.mp4?ac" type="video/mp4">
 									
 								</video>
 
